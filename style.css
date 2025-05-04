@@ -115,3 +115,9 @@ footer {
     justify-content: center;
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    transition-duration: 1s;
+}
