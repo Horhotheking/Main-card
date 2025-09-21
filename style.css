@@ -74,10 +74,20 @@ section h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 400px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transform: none;
 }
 .section_item {
     height: 10vw;
     margin: 0 4em 4em 4em;
+}
+
+.section_item:hover {
+    transition-property: transform;
+    transition-duration: 1s;
+    transform: rotateY(240deg);
 }
 
 .section_item img {
